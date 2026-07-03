@@ -16,6 +16,7 @@ html,body{
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    overflow-x: hidden;
 }
 nav{
     width: 100%;
@@ -52,11 +53,12 @@ nav .menu-icon{
     padding: 3rem 5rem;
     background: 
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
-        url('../Add_face_to_202604182345.jpeg');
+        url('../bg.png');
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 99;
 }
 .hero-container::before{
     content: "";
@@ -70,8 +72,8 @@ nav .menu-icon{
     max-width: 1000px;
 }
 .hero-content{
-    margin-top: 4rem;
-   margin-left:5rem;
+    margin-top: 4.5rem;
+   margin-left:1rem;
 }
 .hero-content>p{
     font-size: 1.4rem;
@@ -98,6 +100,9 @@ nav .menu-icon{
     display: flex;
     justify-content: space-between;
     color: var(--soft-color);
+}
+.hero-footer .email p{
+    margin-top: 5px;
 }
 .hero-container .social-media{
     display: flex;
