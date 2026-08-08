@@ -218,7 +218,7 @@ nav ul li a:hover {
     color: black;
     background:
         linear-gradient(rgba(0, 0, 0, 0.157), rgba(0, 0, 0, 0.333)),
-        url('images/download.png');
+        url('../images/download.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -306,7 +306,7 @@ nav ul li a:hover {
     }
 
     .hero-content {
-        margin-top: 4.4rem;
+        margin-top: 10.4rem;
         margin-left: -3.2rem;
     }
 
